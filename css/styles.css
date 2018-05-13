@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+
+
+
 body {
   margin: 0;
   padding: 0;
@@ -26,6 +29,7 @@ h1 {
   padding: 50px;
   background-color: #2c3e50;
   color: #fff;
+
 
 
 }
@@ -86,7 +90,7 @@ label {
   font-size: 2em;
   text-align: left;
   float: left;
-  width: 100%;
+  width: 75%;
 }
 
 :placeholder-shown {
@@ -99,6 +103,8 @@ label {
   display: flex;
   flex-direction: column;
   background-color: #f5f5f5;
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 .container input{
@@ -122,6 +128,8 @@ label {
 
   .form-container {
     background-color: #f5f5f5;
+    margin: 0 auto;
+    max-width: 90%;
   }
 
   /* FOCUS TRANSITION */
@@ -140,7 +148,6 @@ input:focus::placeholder {
 
 
   select:focus {
-    outline: none;
     background-color: #2c3e50;
     color: #fff;
     transition-timing-function: ease-in;
@@ -174,10 +181,10 @@ input:focus::placeholder {
 
 /* BUTTON STYLING */
 
-button {
+#button {
   padding: 50px;
   margin: 30px;
-  background-color: #2c3e50;
+  background-color: #20b2aa;
   color: #fff;
   width: 95%;
   font-size: 1.5em;
@@ -197,6 +204,7 @@ footer {
 .form-container {
   display: flex;
   flex-wrap: wrap;
+
 }
 
   .form-container label {
@@ -209,6 +217,7 @@ footer {
     margin: 5px;
     width: 70%;
     float: right;
+
   }
 
   .form-container select {
